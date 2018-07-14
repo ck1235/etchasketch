@@ -1,0 +1,104 @@
+.title {
+	margin: -10px;
+	background-color: #a09dff;
+	
+	font-family: 'Fredericka the Great', sans-serif;
+	color: #fff;
+	font-size: 4rem;
+	letter-spacing: 0.5rem;
+	text-align: center;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	
+	padding: 20px;
+	padding-top: 20px;
+	padding-left: 250px;
+}
+
+#author{
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+	font-family: 'Coming Soon', cursive;
+  	color: #fff;
+  	text-shadow: none;
+	padding-left: 100px;
+}
+
+#grid {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	margin-bottom: 2rem;
+	border: 1px solid #DCDCDC;
+}
+
+#grid > div {
+	box-sizing: border-box;
+	float: left;
+}
+
+.buttons{
+	text-align: center;
+	list-style-type: none;
+}
+
+.buttons li{
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	/*padding: 80px;*/	
+}
+
+.reset:hover{
+	color: #ffae6b;
+}
+
+.gridSize:hover{
+	color: #52c902;
+}
+
+.anyColor:hover{
+	color: #e23bf5;
+}
+
+.reset {
+	border: none;
+	background: none;
+	text-align: center;
+
+	font-family: 'Coming Soon', cursive;
+	font-size: 1rem;
+	color: #7a6eff;
+
+	border-width: 1rem;
+	
+	cursor: pointer;
+    outline: none;
+}
+
+.gridSize {
+	border: none;
+	background: none;
+	text-align: center;
+
+	font-family: 'Coming Soon', cursive;
+	font-size: 1rem;
+	color: #7a6eff;
+
+	cursor: pointer;
+    outline: none;
+}
+
+.anyColor{
+	border: none;
+	background: none;
+	text-align: center;
+
+	font-family: 'Coming Soon', cursive;
+	font-size: 1rem;
+	color: #7a6eff;
+
+	cursor: pointer;
+    outline: none;
+}
